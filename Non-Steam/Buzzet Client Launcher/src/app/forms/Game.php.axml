@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Game">
+    <method name="doButton3ClickLeft">
+      <loadForm form="SetTextures" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+    
+  <method name="doButtonAltClickLeft">
+      <open file="shortcuts\seegame.ink" file-type="string"/>
+    </method>
+    
+    
+    
+    
+  <method name="doButton4ClickLeft">
+      <exec command="client\game\1\install1.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <exec command="client\game\1\uninstall1.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <exec command="client\game\2\install2.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButton5ClickLeft">
+      <exec command="client\game\2\uninstall2.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\uninstalled.vbs" file-type="string"/>
+    </method>
+    
+    
+  <method name="doButton7ClickLeft">
+      <exec command="client\game\3\install3.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButton8ClickLeft">
+      <exec command="client\game\3\uninstall3.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\game\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButton10ClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButton9ClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>

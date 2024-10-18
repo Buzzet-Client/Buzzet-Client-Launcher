@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings">
+    <method name="doButton5ClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <loadForm form="Launcher" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  
+  
+  
+  <method name="doButtonClickLeft">
+      <exec command="client\audiologocursor\uninstallaudiologocursor.exe" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\audiologocursor\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <exec command="client\audiologocursor\installaudiologocursor.exe" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\audiologocursor\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <loadForm form="SetTextures" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>

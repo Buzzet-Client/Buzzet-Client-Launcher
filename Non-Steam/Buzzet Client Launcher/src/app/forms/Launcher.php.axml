@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Launcher">
+    <method name="doButtonClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  
+  <method name="doButton3ClickLeft">
+      <loadForm form="Settings" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <exec command="nonsteam\startddnet.bat" command-type="string" wait="" wait-type=""/>
+    </method>
+  </class>
+</root>
