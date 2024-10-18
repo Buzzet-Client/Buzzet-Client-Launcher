@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Launcher">
+    <method name="doButtonClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <browse url="steam://rungameid/412220" url-type="string"/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <loadForm form="Settings" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>

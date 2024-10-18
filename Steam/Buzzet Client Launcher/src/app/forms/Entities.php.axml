@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Entities">
+    <method name="doButton3ClickLeft">
+      <loadForm form="SetTextures" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+    
+  <method name="doButtonAltClickLeft">
+      <open file="shortcuts\seeentities.ink" file-type="string"/>
+    </method>
+    
+    <method name="doButton5ClickLeft">
+      <exec command="client\emoticons\2\uninstall2.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\emoticons\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <exec command="client\entities\1\install1.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\entities\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="SetTextures">
+    
+  <method name="doButton3ClickLeft">
+      <loadForm form="Settings" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+    
+    
+    
+  <method name="doButton4ClickLeft">
+      <loadForm form="Emoticons" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton5ClickLeft">
+      <loadForm form="Entities" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <loadForm form="Game" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButtonClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>

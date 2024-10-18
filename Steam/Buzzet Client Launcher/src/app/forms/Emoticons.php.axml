@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Emoticons">
+    
+  <method name="doButton3ClickLeft">
+      <loadForm form="SetTextures" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+    
+    
+    
+  <method name="doButtonAltClickLeft">
+      <open file="shortcuts\seeemoticons.ink" file-type="string"/>
+    </method>
+  
+  
+  <method name="doButtonClickLeft">
+      <exec command="client\emoticons\1\uninstall1.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\emoticons\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <exec command="client\emoticons\1\install1.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\emoticons\installed.vbs" file-type="string"/>
+    </method>
+    
+    
+  <method name="doButton6ClickLeft">
+      <exec command="client\emoticons\2\install2.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\emoticons\installed.vbs" file-type="string"/>
+    </method>
+  <method name="doButton5ClickLeft">
+      <exec command="client\emoticons\2\uninstall2.bat" command-type="string" wait="1" wait-type=""/>
+      <open file="msg\emoticons\uninstalled.vbs" file-type="string"/>
+    </method>
+  <method name="doButton8ClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doButton7ClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>
